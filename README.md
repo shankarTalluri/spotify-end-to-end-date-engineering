@@ -9,7 +9,7 @@
 ![Architecture Daigram](https://github.com/shankarTalluri/spotify-end-to-end-date-engineering/blob/main/Spotify_ETL_Project_Architecture.JPG)
 
 ### About Dataset /API
-This API contains information about music Albums, Artists & Songs
+This API contains information about music Albums, Artists & Songs [API link](https://developer.spotify.com/documentation/)
 
 ### Services used
 1. **S3 (Simple Storage service)** Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere. 
