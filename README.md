@@ -9,7 +9,8 @@
 ![Architecture Daigram](https://github.com/shankarTalluri/spotify-end-to-end-date-engineering/blob/main/Spotify_ETL_Project_Architecture.JPG)
 
 ## Services used
-1. **S3 (Simple Storage service)
+1. **S3 (Simple Storage service) ** sddwd
 2. **AWS LAMDA
 3. **Cloud Watch for triggering
-4. 
+4. **GLue Crawler
+5. **Amazon Athena
