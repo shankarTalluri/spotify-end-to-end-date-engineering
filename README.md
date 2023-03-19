@@ -8,15 +8,25 @@
 ## Architecture
 ![Architecture Daigram](https://github.com/shankarTalluri/spotify-end-to-end-date-engineering/blob/main/Spotify_ETL_Project_Architecture.JPG)
 
+### About Dataset /API
+This API contains information about music Albums, Artists & Songs
+
 ### Services used
 1. **S3 (Simple Storage service)** Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere. 
 
 2. **AWS LAMDA** AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you.
-3. 
-4. **AWS Cloud Watch** it's monitoring serive for AWS resources and applications you run on them. We can use this to trigger the Lamda function based on file changes on S3.
 
-5. **AWS Glue Crawler** it's fully managed service service that automatically crawls (reads) your data sources, identifies data formats and infers the schemas to create an AWS Glue Data Catalog
+3. **AWS Cloud Watch** it's monitoring serive for AWS resources and applications you run on them. We can use this to trigger the Lamda function based on file changes on S3.
 
-6. **AWS Data Catalog** it's fully managed metadata respository that makes it easy to discover and manage data on AWS. You can use Data catalog with other AWS services subch as **Athena**.
+4. **AWS Glue Crawler** it's fully managed service service that automatically crawls (reads) your data sources, identifies data formats and infers the schemas to create an AWS Glue Data Catalog
+
+5. **AWS Data Catalog** it's fully managed metadata respository that makes it easy to discover and manage data on AWS. You can use Data catalog with other AWS services subch as **Athena**.
  
-7. **AES Athena** it's interactive query service that makes it easy to analyse data in S3 using standard SQL. You can use Athena to analyse data in your Glue catalog oe S3 buckets
+6. **AES Athena** it's interactive query service that makes it easy to analyse data in S3 using standard SQL. You can use Athena to analyse data in your Glue catalog oe S3 buckets
+
+### install packages
+```
+pip install pandas
+pip install spotify
+
+```
