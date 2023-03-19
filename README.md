@@ -30,3 +30,6 @@ pip install pandas
 pip install spotify
 
 ```
+
+### Project execution flow
+Extract data from API --> trigger (Every one hours) --> Run Lamda function extract Code --> Store raw data in S3 as JSON files --> trigger (when ever file arrived into landing) --> Run tranform function --> Query data using Athena
